@@ -7,7 +7,7 @@ zig_zag = [500,4,1000,5,250]
 def find_element_index(array, value_to_find)
   count = 0
   while count < array.length do
-    array.include?(value_to_find)[index]
+    array.include?(value_to_find)[]
     count += 1
   end
 end
